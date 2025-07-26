@@ -1,0 +1,199 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0 9px 13px -3px silver;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  width: 100px;
+}
+
+.nav-items-container {
+  width: 30%;
+}
+.nav-items-container > ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.filter-container {
+  width: 100%;
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.filter-btn {
+  color: #f0f8ff;
+  background-color: #b757a7;
+  border-radius: 14px;
+  height: 32px;
+  border: none;
+}
+
+.filter-btn:hover {
+  cursor: pointer;
+}
+
+.input-container {
+  display: flex;
+  margin-right: 20px;
+}
+
+.restaurant-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-inline: 5%;
+}
+
+.shimmer-filter-container {
+  width: 100%;
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.shimmer-filter-btn {
+  color: #f0f8ff;
+  background-color: #b757a7;
+  border-radius: 14px;
+  height: 32px;
+  width: 150px;
+  border: none;
+}
+.shimmer-restaurant-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-inline: 5%;
+}
+
+.shimmer-restaurant-card {
+  width: 286px;
+  height: 271px;
+  border-radius: 15px;
+  margin-bottom: 3rem;
+  background-color: #a36c6c;
+}
+.restaurant-card-component :hover {
+  cursor: pointer;
+}
+.restaurant-card-component {
+  width: 286px;
+  height: 271px;
+  border-radius: 15px;
+  margin-bottom: 3rem;
+}
+
+.restaurant-image {
+  width: 100%;
+  height: 63%;
+  border-radius: 15px;
+}
+
+.restaurant-name {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 90%;
+  height: 1.2em;
+  white-space: nowrap;
+  margin: 4px;
+}
+
+.restaurant-cuisines {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #958383;
+  width: 90%;
+  height: 1.2em;
+  margin: 4px;
+  overflow: hidden;
+  font-weight: 200;
+}
+.rating-delivery-time-container {
+  align-items: center;
+  height: 10px;
+  /* margin-top: 0; */
+  padding-inline: 6px;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 16px;
+}
+
+.restaurant-area-container {
+  color: #958383;
+  margin: 4px;
+  font-weight: 200;
+}
+
+.checked {
+  color: green;
+}
+
+.rest-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rest-details-container {
+  text-align: center;
+  border-bottom: 1px solid rgb(217, 212, 212);
+  width: 80%;
+}
+
+.rest-menu-container {
+  width: 80%;
+  
+}
+.rest-menu-item-container {
+  justify-content: space-between;
+  display: flex;
+  height: 172px;
+  border-bottom: 1px solid rgb(217, 212, 212);
+  padding-top: 16px;
+}
+.rest-menu-item {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 50%;
+}
+
+.img {
+  height: 100%;
+}
+
+.desc {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: rgba(2, 6, 12, 0.6);
+}
+
+.menu-item-name {
+  margin: 0;
+  color: rgba(2, 6, 12, 0.75);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.rating {
+  margin: 0;
+}
+
+.menu-item-rating-container {
+  display: flex;
+  align-items: center;
+}
